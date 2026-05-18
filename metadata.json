@@ -1,0 +1,6 @@
+{
+  "name": "skr news",
+  "description": "A minimalist, bilingual global news platform featuring breaking stories, in-depth analysis, and fluent animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
