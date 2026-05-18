@@ -20,7 +20,7 @@ export interface Comment {
 }
 
 const names = ["Alex Chen", "Sophia Wang", "Marcus Thorne", "Elena Petrova", "Hiroshi Tanaka", "Sarah Jenkins", "Luca Moretti", "Anya Gupta", "David Schmidt", "Chloe Dubois"];
-const avatars = Array.from({ length: 50 }, (_, i) => `https://i.pravatar.cc/100?img=${i + 1}`);
+const avatars = Array.from({ length: 8 }, (_, i) => `/avatar${i + 1}.png`);
 const topics = {
   en: [
     "W launch! 🚀",

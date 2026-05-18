@@ -64,7 +64,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, index }) => {
           <div className="mt-auto pt-6 border-t border-slate-50 flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-full bg-slate-100 border-2 border-white shadow-sm overflow-hidden">
-                <img src={`https://i.pravatar.cc/100?u=${article.author}`} className="w-full h-full object-cover" />
+                <img src={`/avatar${(article.author.length % 8) + 1}.png`} className="w-full h-full object-cover" />
               </div>
               <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">{article.author}</span>
             </div>

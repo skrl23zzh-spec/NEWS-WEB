@@ -24,12 +24,12 @@ export const MessageBoard: React.FC<MessageBoardProps> = ({ topic }) => {
 
   // Profile Management
   const availableAvatars = [
-    'https://i.pravatar.cc/150?img=11',
-    'https://i.pravatar.cc/150?img=32',
-    'https://i.pravatar.cc/150?img=44',
-    'https://i.pravatar.cc/150?img=60',
-    'https://i.pravatar.cc/150?img=68',
-    'https://i.pravatar.cc/150?img=5',
+    '/avatar1.png',
+    '/avatar2.png',
+    '/avatar3.png',
+    '/avatar4.png',
+    '/avatar5.png',
+    '/avatar6.png',
   ];
 
   const [profile, setProfile] = useState(() => {
